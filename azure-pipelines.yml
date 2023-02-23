@@ -8,8 +8,6 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  demands: limit -equals DisAbleParallel
-
 
 steps:
 - task: NodeTool@0
@@ -21,4 +19,3 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
