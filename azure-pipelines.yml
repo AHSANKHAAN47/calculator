@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  demands: noninteractive
+  demands: windows
 
 steps:
 - task: NodeTool@0
